@@ -1,0 +1,16 @@
+__pycache__
+figs
+dataset
+*.pkl
+*.egg-info
+results
+*.sh
+taide_7b
+exp2
+transformers
+ckpts
+.cache
+exps
+.vscode
+*.zip
+envs

@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["betag"]
+package-dir = {"" = "src"}
+
+
+[project]
+name = "betag"
+authors = [
+    {name = "Smark Lin", email = "r12942082@ntu.edu.tw"},
+]
+description = "TODO"
+readme = "readme.md"
+requires-python = ">=3.10"
+# keywords = ["one", "two"]
+# license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    # "torch==2.0.1",
+    "numpy",
+    "pandas",
+    "requests",
+    "packaging",
+    "bitsandbytes==0.43.0",
+    "transformers==4.37.0",
+    "peft==0.11.1",
+    "sentence-transformers==3.0.1",
+    "accelerate==0.30.1",
+    "colorama==0.4.6",
+    "pydantic",
+    "pydantic_settings",
+    "naive-flow @ git+https://github.com/bhbbbbb/naive-flow.git@f6c52f8f54d2dd47a4c92595040db5cd4a7239e1",
+]
+version = "1.0.0"
+
+[project.optional-dependencies]
+# 
+
+[project.urls]
+# Homepage = ""
+# Documentation = ""
+# Repository = "TODO"
+# Changelog = ""
+
+# [project.scripts]
+# my-script = "my_package.module:function"
+
+# ... other project metadata fields as specified in:
+#     https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
