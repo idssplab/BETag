@@ -45,8 +45,9 @@ python beft.py --env path/to/the/.env
 
 ### Notes:
 
+- Preprocessed datasets used in the paper are available [here](https://drive.google.com/drive/folders/1lInWdSQUyXEKRP-XY8QRv3LISzo6mNmV?usp=sharing).
 - Default environment configurations can be found in the `envs.default` directory.
-- Preprocessed datasets used in the paper are available [here](a-TODO-link).
+  - Finetuned checkpoints are available on [google drive](https://drive.google.com/drive/folders/1RzJYQTFFtvC7o8yMdVBxuotitBUYPtgg?usp=sharing).
 
 ---
 
@@ -89,6 +90,9 @@ The output directory will contain the following files:
       betags = {pid: Counter(sum(beams, [])).most_common(TOP_K) for pid, beams in betags.items()}
       ```
 
+### Notes:
+
+- Generated BETags are available [here](https://drive.google.com/drive/folders/1GozeWRkTJ4K3kpZpFmyBRf1zQaKFjG--?usp=sharing).
 
 ---
 
