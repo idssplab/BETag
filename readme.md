@@ -1,5 +1,9 @@
 # BETag
 
+We are excited to share that our paper was accepted to The Web Conference 2025!
+You can read the paper [here](https://drive.google.com/file/d/1V8NXXW0IwSRXXziLKOYMYEkMAYWgBOzR/view?usp=drive_link) until it becomes available via the ACM Digital Library.
+A 20-minute introduction to the paper is available [here](https://drive.google.com/file/d/1UFQU0VWRbr09z--M8UeznHp0I_KgDtBu/view?usp=sharing).
+
 ## Installation for BETag Generation
 
 1. Install PyTorch (version >= 2.0) with the appropriate CUDA version for your system. 
