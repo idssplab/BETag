@@ -16,9 +16,18 @@ pip install -e .
 
 ## Base Tag Generation
 
-Base tags serve as the foundational representation of products and can be any relevant tags. We provide a script (`base_tags_generation.py`) for generating base tags using an LLM API.
+Base tags serve as the foundational representation of products and can be any relevant tags. We provide a script, `base_tag_generation.py`, to generate base tags for the public datasets used in our paper.
 
-The base tags must be organized in the following format for subsequent BE-finetuning and BETag Generation:
+### Example Usage
+
+```py
+python base_tag_generation.py --dataset_name "Movielens-1M" --data_path MovieLens_1m_Plot.csv --output_path ./output --openai_key "YOUR_OPENAI_KEY" --gen_feq 5 --batch_size 100
+```
+
+- Preprocessed data and the base tags generated for public datasets used in the paper are available [here](https://drive.google.com/drive/folders/1lInWdSQUyXEKRP-XY8QRv3LISzo6mNmV?usp=sharing).
+
+
+Note that the base tags must be organized in the following format for subsequent BE-finetuning and BETag Generation:
 
 ```python
 Mapping[PID, list[str]]
